@@ -81,6 +81,10 @@ height:35px
       transform-style: scale(1.2);
 
     }
-    .posterimage:hover{
+    .posterimg:hover {
       transform-style: scale(1.2);
+    }
+    .posterimg{
+      width:60%;
+      height:60%
     }

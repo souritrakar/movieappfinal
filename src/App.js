@@ -69,7 +69,7 @@ apiCall= async (moviename)=>{
                 <img className="movieimage"src={movie} alt="movielogo"/>
                 <img width="20%"className="movieimage" src={roll} alt="rolllogo"/>
 
-            <center><h2>Search for any movie and get its details!</h2></center>
+            <center><h2>Search for any movie and get details!</h2></center>
             <br></br>
             <input  className="input100" type="text" name="username" onChange={(e)=>{this.setState({movieName:e.target.value})}}/>
             <br></br>

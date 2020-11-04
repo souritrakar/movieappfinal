@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -36,3 +37,50 @@
     transform: rotate(360deg);
   }
 }
+.imdb{
+  margin-bottom:auto;
+  color:lightskyblue
+}
+
+.movieimage{
+  margin-bottom:auto;
+  
+}
+.input100{
+  font-size:30px;
+width:40%;
+height:35px
+}
+.example_a {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ed3330;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  }
+  .example_a:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }
+
+  
+    .moviecard {
+      margin-top:25px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+      width: 35%;
+      background-color:lightslategrey;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
+      transform-style: scale(1.2);
+
+    }
+    .posterimage:hover{
+      transform-style: scale(1.2);
+    }

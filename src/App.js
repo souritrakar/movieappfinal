@@ -96,7 +96,7 @@ apiCall= async (moviename)=>{
                   rating={this.state.rating}/>
             }
           <h4>© Souritra Kar 2020</h4>
-          <h5> Uses: OMDB API and React.JS Framework</h5>
+       
           </header>
         </div>
         );

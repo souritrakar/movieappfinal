@@ -30,7 +30,11 @@ export default class App extends React.Component {
       //}
     }
   }
-  
+  componentDidMount() {
+    document.addEventListener('contextmenu', (e) => {
+      e.preventDefault();
+    });
+  };
 
 apiCall= async (moviename)=>{
  
